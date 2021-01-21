@@ -21,7 +21,7 @@ module.exports = class RecipeCommand extends Command {
     }
 
     async run(message, { search }) {
-        const res = await (await fetch(`https://api.edamam.com/search?q=${search}&app_id=d6f1385f&app_key=8bad6a76df3a71d7717bc9e0cc285d9e&from=0&to=3`)).json();
+        const res = await (await fetch(`https://api.edamam.com/search?q=${search}&app_id=<INSERT APP ID>&app_key=<INSERT APP KEY>&from=0&to=3`)).json();
         for (const hit of res.hits) {
             const recipe = hit.recipe;
             const embed = new MessageEmbed()
