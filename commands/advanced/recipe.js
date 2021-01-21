@@ -7,7 +7,7 @@ module.exports = class RecipeCommand extends Command {
         super(client, {
             name: 'recipe',
             aliases: ['r'],
-            group: 'basic',
+            group: 'advanced',
             memberName: 'recipe',
             description: 'Search for recipes.',
             args: [
