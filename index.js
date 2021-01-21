@@ -24,4 +24,4 @@ client.once('ready', () => {
 
 client.on('error', console.error);
 
-client.login('ODAxNjU1NTA3NDU3ODAyMjUw.YAj13w.KxHQ6WWViFxD0qimlZLpdsObqnE');
+client.login('insert-token');
